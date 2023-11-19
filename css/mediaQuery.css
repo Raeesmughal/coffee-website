@@ -18,7 +18,7 @@
         justify-content: start;
         gap: 0;
         transition: .5s;
-        background: url(../images/beans.jpg) no-repeat center;
+        background: url(beans.jpg) no-repeat center;
         background-size: cover;
     }
 
