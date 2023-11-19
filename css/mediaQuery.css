@@ -1,0 +1,50 @@
+
+@media screen and (max-width: 1200px) {
+    nav {
+        border-radius: 0;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        z-index: 999;
+        justify-content: start;
+        gap: 0;
+        transition: .5s;
+        background: url(../images/beans.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    .nav-links>li {
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+        padding: 5% 0;
+        border-bottom: 2px solid white;
+    }
+    .logo {
+        flex: 50%;
+    }
+
+    .menubar {
+        flex: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menubar>i {
+        font-size: 1.5rem;
+    }
+
+    .not-active {
+        translate: -150% 0;
+    }
+}

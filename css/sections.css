@@ -1,0 +1,31 @@
+
+/* first section with id='home' and elements inside it */
+
+#home>div{
+    color: white;
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/newbd.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.first-portion-main-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+.first-portion-main-section>p{
+    font-size: 1rem;
+}
+.first-portion-main-section>div.heading{
+    text-transform: capitalize;
+    text-align: center;
+    width: 40%;
+    font-size: 2rem;
+}
